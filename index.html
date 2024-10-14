@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="index.styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="photo">
+        <img class="image" src="foto .jpeg" alt="Foto de perfil" />
+      </div>
+
+      <div class="sobre-mi">
+        <h2>Mónica Lorena Sánchez Villa</h2>
+        <p class="parrafo">
+          Bienvenido a mi portafolio. Soy desarrolladora web apasionada por
+          crear soluciones innovadoras y funcionales. Aquí podrás encontrar
+          información sobre mis proyectos, habilidades, y dónde me puedes
+          contactar
+        </p>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button id="ver-habilidades" class="button">Ver Habilidades</button>
+      <button id="ver-proyectos" class="button">Ver Proyectos</button>
+      <button id="contactame" class="button">Contáctame</button>
+      <button id="Cv" class="button">Mira mi CV</button>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="title">Estas son mis principales habilidades técnicas</h2>
+        <ul class="list">
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Redux</li>
+          <li>SQL, PostgreSQL</li>
+          <li>Git, Node</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="modal-proyectos" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="title">Aplicación de Adopción de Mascotas</h2>
+        <p class="description">
+          Este es un proyecto donde tendrás la oportunidad de adoptar una
+          mascota de acuerdo a tus necesidades, podrás filtrar por raza o por
+          nombre, además de ver información detallada de una mascota. Tienes la
+          oportunidad de realizar donaciones voluntarias por el valor que
+          desees, y dejar un comentario de como fué todo tu proceso al adquirir
+          tu mascota. Esta aplicación cuenta con un panel de Administrador para
+          manejo de usuarios y mascotas, y por supuesto con un panel de usuarios
+          para registro y datos personales.
+        </p>
+        <a
+          class="link"
+          href="https://salvandohuellitas-front-end-production-5e5d.up.railway.app/"
+          target="_blank"
+          >🚀Ver</a
+        >
+      </div>
+    </div>
+
+    <div id="modal-contacto" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="title">Encuéntrame en:</h2>
+
+        <div class="social-icons">
+          <a
+            href="https://github.com/Mlsanchezvilla"
+            target="_blank"
+            class="icon"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mónica-lorena-sánchez-villa-5aaa2b26b"
+            target="_blank"
+            class="icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://x.com/2298Monica" target="_blank" class="icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <p class="correo">
+            También puedes contactarme a través del
+            <a href="mailto:sanchezvilla.2298@gmail.com">correo electrónico</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-cv" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Haz clic en descargar para ver el Curriculum</h2>
+
+        <a
+          href="https://www.dropbox.com/scl/fi/4ghwq8n744y3hn2hdb118/Curriculum-M-nica-S-nchez-Henry-2.pdf?rlkey=vm9a3s5lly5jeqpi8knxxgwoi&st=2z506lj3&dl=1"
+          target="_blank"
+          class="download-btn"
+        >
+          <i class="fas fa-download"></i> Descargar CV
+        </a>
+      </div>
+    </div>
+
+    <script src="modal.script.js"></script>
+    <script src="modal2.script.js"></script>
+    <script src="modal3.script.js"></script>
+    <script src="modal4.script.js"></script>
+  </body>
+</html>
